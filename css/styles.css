@@ -1,18 +1,24 @@
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 601px) {
   body {
-    margin: 20px 15%;
+    margin: 10px 15%;
     padding: 0;
   }
 }
 
 .heading {
-  width: 80%;
-  padding: 40px 0;
+  width: 70%;
+  padding: 50px 0;
 }
 
 .social {
-  width: 16.7%;
+  width: 26.7%;
   text-align: right;
+}
+
+.social img {
+  width: 36px;
+  height: 36px;
+  margin-left: 5px;
 }
 
 /* Grid system from: http://www.responsivegridsystem.com/ */
@@ -49,17 +55,16 @@
   width: 66.1%;
 }
 
-.span_1_of_3:before{
-  content: "";
-  display: block;
-  padding-top: 100%;
-}
 .span_1_of_3 {
   width: 31.7%;
   background: #eee;
 }
 
-@media only screen and (max-width: 800px) {
+.span_1_of_3 img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
   .col { margin: 1% 0 1% 0%;}
   .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
