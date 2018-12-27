@@ -1,0 +1,53 @@
+@media only screen and (min-width: 801px) {
+  body {
+    margin: 0 15%;
+    padding: 0;
+  }
+}
+
+/* Grid system from: http://www.responsivegridsystem.com/ */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col:before{
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.col {
+  background: red;
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+  height: auto;
+}
+
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+.group:after {
+  clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+.span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.1%;
+}
+.span_1_of_3 {
+  width: 31.7%;
+}
+
+@media only screen and (max-width: 800px) {
+  .col { margin: 1% 0 1% 0%;}
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
