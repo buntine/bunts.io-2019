@@ -1,7 +1,7 @@
 *- Font
 *- Fix padding/margin/width of hover effect
 *- Images for each project / articles
-- Link for each project
+*- Link for each project
 
-- Mobile size of portfolio boxes
-- Mobile - show project details text always
+*- Mobile size of portfolio boxes
+- Mobile - show project details text always (or disable hover)
